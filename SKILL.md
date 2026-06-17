@@ -1,11 +1,15 @@
 ---
 name: remotion
 description: 用 React 代码程序化生成视频的框架，支持 CSS/Canvas/SVG/WebGL，可部署到 Lambda/Cloud Run 大规模渲染，适合创意视频生成、数据可视化视频和个性化视频批量生产
-version: 0.1.0
+version: 0.1.1
 metadata:
-  openclaw_requires: ">=1.0.0"
-  emoji: 🎥
-  homepage: https://remotion.dev
+  openclaw:
+    requires:
+      bins:
+        - node
+        - npx
+    emoji: 🎥
+    homepage: https://remotion.dev
 ---
 
 # Remotion — 用 React 写视频
@@ -114,3 +118,4 @@ export const MyVideo: React.FC = () => {
 - API 参考：https://remotion.dev/api
 - 展示作品：https://remotion.dev/showcase
 - Discord：https://remotion.dev/discord
+
